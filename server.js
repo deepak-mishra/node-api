@@ -5,7 +5,7 @@ var express = require('express'),
     Portfolio = require('./controllers/portfolio');
 
 // Connect to the beerlocker MongoDB
-mongoose.connect('mongodb://localhost:27017/postdata');
+//mongoose.connect('mongodb://localhost:27017/postdata');
 
 // Create our Express application
 var app = express(),
