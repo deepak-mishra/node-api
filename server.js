@@ -6,6 +6,7 @@ var express = require('express'),
 
 // Connect to the beerlocker MongoDB
 //mongoose.connect('mongodb://localhost:27017/postdata');
+mongoose.connect('mongodb://dees:Deep1984@ds031681.mongolab.com:31681/dessweb');
 
 // Create our Express application
 var app = express(),
